@@ -1,0 +1,33 @@
+{
+  "name": "dsx-public-api",
+  "version": "1.0.0",
+  "description": "DSX (Digital Securities Exchange) crypto exchange public api",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/**"
+  ],
+  "dependencies": {
+    "ccxt": "^1.19.17"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmodeus74/dsx-public-api.git"
+  },
+  "author": "Murat Demircioglu",
+  "keywords": [
+    "Cryptocurrency",
+    "exchange",
+    "DSX"
+  ]
+}
