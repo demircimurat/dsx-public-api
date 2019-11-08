@@ -1,6 +1,6 @@
 {
   "name": "dsx-public-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DSX (Digital Securities Exchange) crypto exchange public api",
   "license": "MIT",
   "types": "dist/index.d.ts",
